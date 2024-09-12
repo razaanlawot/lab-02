@@ -1,0 +1,53 @@
+\/* Step 2: Grouped selector for headings to apply the "Poppins" font */
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Step 3: Styling for the <h1> */
+h1 {
+  font-size: 46px; /* Adjust the size */
+  letter-spacing: 2px; /* Adjust letter spacing */
+  text-align: center; /* Center the text */
+  color: #2c3e50; /* Change font color */
+}
+
+/* Step 4: Group selector for body text (paragraphs and lists) using the "Lora" font */
+body, p, ul, li, a {
+  font-family: 'Lora', serif;
+}
+
+/* Step 5: Style for the <span> inside the paragraph to change color */
+p span {
+  color: #e74c3c; /* Change the text color of the span */
+}
+
+/* Styling for the link */
+a {
+  font-size: 18px;
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #2980b9;
+}
+
+/* List items styling */
+ul {
+  list-style-type: disc;
+  margin: 20px auto;
+  padding: 0;
+}
+
+li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Step 6: Increase size of h3 and add text shadow */
+h3 {
+  font-size: 28px; 
+  color: #34495e;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
