@@ -5,10 +5,10 @@ h1, h2, h3 {
 
 /* Step 3: Styling for the <h1> */
 h1 {
-  font-size: 46px; /* Adjust the size */
-  letter-spacing: 2px; /* Adjust letter spacing */
-  text-align: center; /* Center the text */
-  color: #2c3e50; /* Change font color */
+  font-size: 46px; 
+  letter-spacing: 2px; 
+  text-align: center; 
+  color: #2c3e50; 
 }
 
 /* Step 4: Group selector for body text (paragraphs and lists) using the "Lora" font */
@@ -18,7 +18,7 @@ body, p, ul, li, a {
 
 /* Step 5: Style for the <span> inside the paragraph to change color */
 p span {
-  color: #e74c3c; /* Change the text color of the span */
+  color: #e74c3c; 
 }
 
 /* Styling for the link */
